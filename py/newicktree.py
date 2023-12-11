@@ -1,6 +1,6 @@
 """Newick trees.
 
-Provides two classes: NewickNode and NewickTree.
+Provides two classes: TreeNode and Tree.
 
 Usage:
   str = "(A,(B,C));"
