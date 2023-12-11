@@ -43,3 +43,22 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 </pre>
+
+### Unit tests
+The `newicklexer.py` and `newicktree.py` modules run self-tests if run as the main script. These tests use a list of valid Newick strings found in the `newickstrings.py` module.
+
+The `trees/` directory has some example tree files, `example1.tree` is similar to `example2.tree` (ditto `example[34].tree`).
+
+<pre>
+# example usage
+py/robinson_foulds.py trees/example3.tree trees/example4.tree
+tree1 ../trees/example3.tree
+tree2 ../trees/example4.tree
+148 subtrees in 1
+148 subtrees in 2
+34 subtrees in 1 not in 2
+34 subtrees in 2 not in 1
+R-F metric distance = 68
+Normalized distance (range 0 to 1) = 0.2297
+</pre>
+
