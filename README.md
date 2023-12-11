@@ -17,7 +17,7 @@ Usage:
   newick_dump.py [-h] [--short] [filename]
 
 Description:
-  Dump summary of Tree object from Newick input file
+  Show human-readable summary of Tree object from Newick input file on stdout.
 
 positional arguments:
   filename    tree filename in Newick format
